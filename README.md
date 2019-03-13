@@ -1,0 +1,3 @@
+## MVVMTableView
+
+UITableView可以完成我们绝大部分页面的展示，在这个Demo中，使用了MVVM架构思想和数据驱动展示的原则，用一个tableview的ViewModel处理从数据到展示的全部逻辑。
