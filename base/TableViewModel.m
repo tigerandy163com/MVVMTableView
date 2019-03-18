@@ -14,7 +14,7 @@
 
 @property (nonatomic) NSArray *tableDataModel;
 
-@property (nonatomic) NSArray *serverData;
+@property (nonatomic) id serverData;
 
 @end
 

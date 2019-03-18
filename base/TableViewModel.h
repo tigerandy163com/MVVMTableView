@@ -13,14 +13,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TableViewModel : NSObject<UITableViewDelegate, UITableViewDataSource> {
     NSArray *_tableDataModel;
-    NSArray *_serverData;
+    id _serverData;
 }
 
 @property (nonatomic, readonly) UITableView *table;
 
 @property (nonatomic, readonly) NSArray *tableDataModel;
 
-@property (nonatomic, readonly) NSArray *serverData;
+@property (nonatomic, readonly) id serverData;
 
 - (instancetype)initWithTable:(UITableView *)table;
 
